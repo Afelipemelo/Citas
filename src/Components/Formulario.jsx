@@ -35,7 +35,6 @@ const Formulario = ({crearCita}) => {
 
         //asignar ID
         cita.id = uuidv4();
-        console.log(cita)
         //crear la cita
         crearCita(cita)
         //reiniciar el form

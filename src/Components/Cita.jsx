@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from "prop-types";
 
-const Cita = ({cita,eliminarCita}) => (
+const Cita = ({cita, eliminarCita}) => (
 
     <div className='cita'>
         <p>Mascota:<span> {cita.mascota}</span></p>
@@ -11,7 +11,7 @@ const Cita = ({cita,eliminarCita}) => (
         <p>Sintomas:<span>{cita.sintomas}</span></p>
 
         <button className='button eliminar u-full-width' onClick={()=>eliminarCita(cita.id)}>
-            Eliminar &times;
+            Eliminar
         </button>
     </div>
 
