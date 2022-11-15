@@ -15,7 +15,7 @@ pipeline {
   stages {
     stage('install') {
       steps {
-        git branch: 'main', url: 'https://github.com/Afelipemelo/citas.git'
+        git branch: 'main', url: 'https://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@github.com/Afelipemelo/citas.git'
         dir('citas') {
           sh 'npm install'
         }
