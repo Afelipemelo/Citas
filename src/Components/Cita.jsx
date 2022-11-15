@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from "prop-types";
 
 const Cita = ({cita, eliminarCita}) => (
-    
+    //sdf
     <div className='cita'>
         <p>Mascota:<span> {cita.mascota}</span></p>
         <p>Dueño:<span></span>{cita.propietario}</p>
